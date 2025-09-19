@@ -15,7 +15,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "",
+  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "malvin~QuElgRjL#-vvQGlf6amfKuWgG2PAFStRtSS63J0MJ1pweE92uZAw",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
@@ -24,8 +24,8 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "256789966218",
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ʟᴜᴄᴋʏ ➋➊➑",
+  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "2349161071170",
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "TLB",
   DEV: process.env.DEV || "256789966218",
   DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
   MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/3v5i11.mp3',
@@ -49,6 +49,7 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   AUTO_STICKER: process.env.AUTO_STICKER || "false",
 
   // ===== MEDIA & AUTOMATION =====
+  AUTO_TAG: process.env.AUTO_TAG || "true",
   AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
   AUTO_TYPING: process.env.AUTO_TYPING || "false",
   MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -66,11 +67,11 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
-  DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
+  DESCRIPTION: process.env.DESCRIPTION || "*© Powered By TLB*",
   PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
-  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
   AUTO_BIO: process.env.AUTO_BIO || "false",
   WELCOME: process.env.WELCOME || "false",
   GOODBYE: process.env.GOODBYE || "false",
