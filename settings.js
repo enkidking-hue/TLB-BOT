@@ -49,7 +49,6 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   AUTO_STICKER: process.env.AUTO_STICKER || "false",
 
   // ===== MEDIA & AUTOMATION =====
-  AUTO_TAG: process.env.AUTO_TAG || "true",
   AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
   AUTO_TYPING: process.env.AUTO_TYPING || "false",
   MENTION_REPLY: process.env.MENTION_REPLY || "false",
